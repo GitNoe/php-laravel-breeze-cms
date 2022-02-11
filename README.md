@@ -92,4 +92,4 @@ Como apunte, si vamos a nuestra base de datos en phpmyadmin, podemos ver que se 
 
 Hasta aquí hemos estado logueados en la aplicación, donde todo funciona correctamente, pero si salimos de la sesión y queremos ver la página de home nos encontramos con un error, básicamente el programa no encuentra la clase index y la vista de home, por lo que no la muestra, debido a un problema con las views de los post. Este erro está en proceso de estudio y solución.
 
-**Nota**: Como siempre, se ha creado un respositorio remoto en Github usando los comando de git por terminal.
+**Nota**: Como siempre, se ha creado un respositorio remoto en Github usando los comando de git por terminal. Al utilizar un framework tan extenso en necesario disponer de un .gitignore para no cargar absolutamente todos los archivos en la red, por suerte laravel ya tiene ese archivo por defecto en su sistema.
